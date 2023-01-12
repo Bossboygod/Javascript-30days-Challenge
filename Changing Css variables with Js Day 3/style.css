@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@200&display=swap');
+
+:root {
+    --base: #d94e26;
+    --spacing: 10px;
+    --blur: 10px;
+}
+
+img {
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+    width: 50%;
+}
+
+.h1 {
+    color: var(--base);
+}
+
+  /*
+    misc styles, nothing to do with CSS variables
+  */
+
+body {
+    text-align: center;
+    background-image: url(img/lubo-minar-B-gb_8fgmz8-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+    color: white;
+    font-family: 'Sofia Sans', sans-serif;
+    font-weight: 100;
+    font-size: 40px;
+}
+
+.controls {
+    margin-bottom: 50px;
+}
+
+input {
+    width: 100px;
+}
